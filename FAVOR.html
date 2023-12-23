@@ -46,14 +46,30 @@
         If pwede pili ka dito, McDo, Greenwich, Jabili, 1kbudget if may matira deretso milktea, lagay sa box yung sagot:> <br> <br> <br> <br>
     </h1>
     <div class="container">
-        <form action="https://formsubmit.co/d2dd0b9be09ae198bc0d358bfbe4606d" method="POST">
-            <h3>Fill It</h3>
-            <input type="text" id="name" placeholder="Name" required>
-            <input type="email" id="email" placeholder="Email Address" required>
-            <input type="text" id="yes" placeholder="Yes Or no" required>
-            <input type="food" id="name" placeholder="McDo,Greenwich,Jabili" required>
-            <textarea id="message" rows="4" placeholder="Birthday Message"></textarea>
-            <button type="submit">Submit</button>
+        <h3>Fill It</h3>
+        <form class="row g-3"  action="https://formsubmit.co/d2dd0b9be09ae198bc0d358bfbe4606d" method="POST">
+            <div class="col-md-6">
+              <label for="Name" class="form label">Name</label>
+              <input type="text" id="name" placeholder="Name" required>
+            </div>
+            <div class="col-md-6">
+                <label for="email" class="form label">E-Mail</label>
+                <input type="email" id="email" placeholder="E-Mail Address" required>
+              </div>
+              <div class="col-md-6">
+                <label for="Yes" class="form label">Sasama kaba</label>
+                <input type="text" id="yes" placeholder="Yes or No" required>
+              </div>
+              <div class="col-md-6">
+                <label for="McDo,Greenwich,Jabili" class="form label">FastFood Chain</label>
+                <input type="food" id="name" placeholder="McDo,Greenwich,Jabili" required>
+              </div>
+              <div class="col-md-6">
+                <label for="Birthday Message" class="form label"></label>
+                <textarea id="message" rows="4" placeholder="Birthday Message"></textarea>
+              </div>
+              <div class="col-md-6">
+                <button type="submit" class="btn btn-primary">Submit</button>
          </form>
    </div>
 </script>
